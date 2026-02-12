@@ -59,4 +59,4 @@ The site uses a **brutalist/neo-brutalist** design system with:
 - **Colors**: Zinc grays, orange accents, high-contrast blacks
 - **Typography**: Black font weights, uppercase tracking, tighter leading
 - **Layout**: Hard borders, geometric shadows, bold sectioning
-- **No rounded corners**: Sharp, industrial aesthetic throughout
+- **No rounded corners**: Sharp, industrial aesthetic throughouts
