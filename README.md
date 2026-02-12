@@ -47,11 +47,33 @@ Output will be in the `dist/` directory.
 
 ## Deployment
 
+### GitHub Pages (Automated)
+
+This project is configured for automatic deployment to GitHub Pages:
+
+1. **Enable GitHub Pages** in your repository settings:
+   - Go to Settings → Pages
+   - Under "Build and deployment", select **GitHub Actions** as the source
+
+2. **Push to main branch**:
+   ```bash
+   git add .
+   git commit -m "Deploy to GitHub Pages"
+   git push origin main
+   ```
+
+3. **Access your site**:
+   - Your site will be available at: `https://ulfkemmsies.github.io/mandiblechems/`
+   - The workflow will automatically build and deploy on every push to main
+
+### Manual Deployment to Other Hosts
+
 Deploy the `dist/` folder to any static host:
-- Vercel
-- Netlify
-- GitHub Pages
-- Cloudflare Pages
+- **Vercel**: Import your GitHub repository
+- **Netlify**: Connect your repository or drag-and-drop the `dist/` folder
+- **Cloudflare Pages**: Connect your GitHub repository
+
+For custom domains or different hosts, you may need to update the `base` path in `vite.config.js`.
 
 ## Design Notes
 
